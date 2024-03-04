@@ -14,6 +14,9 @@
     <name>Table</name>
     <description>Table</description>
     <properties>
+               <sonar.organization>lilmystik</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+
         <java.version>17</java.version>
     </properties>
     <dependencies>
