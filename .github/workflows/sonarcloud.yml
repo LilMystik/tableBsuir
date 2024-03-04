@@ -35,6 +35,3 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=LilMystik_tableBsuir
-          GITHUB_TOKEN: ${{2331d9da9cad399ed771f9cd4711314f25eae930 }}  # Needed to get PR information, if any
-          SONAR_TOKEN: ${{ 2cf9877f8bd3d8bb1b34af63e4072fcad65e17f3 }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=LilMystik_tableBsuir
